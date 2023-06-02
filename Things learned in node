@@ -1,0 +1,28 @@
+// import http from "http";
+// import fs from "fs";
+// import modu from "./features.js";
+
+// const home = fs.readFileSync("./index.html",()=>{
+// });
+
+// console.log(modu);
+
+// const server = http.createServer((req,res)=>{
+//     console.log("Server is created")
+//     console.log(req.url)
+
+//     if(req.url ==="/about"){
+//         res.end("I ain't tellin you nothing nigga Tell me about yourself");
+//     }
+//     else if(req.url ==="/home"){
+//         res.end(home)
+//         // fs.readFile("./index.html",(err, home)=>{
+//         //     res.end(home);
+//         //     // This Home is shown asynchronously
+//         // });
+        
+//     }
+// })
+// server.listen(5000, ()=>{
+//     console.log("Server is working")
+// })
